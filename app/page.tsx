@@ -13,13 +13,13 @@ const Home = () => {
             <br className="max-md:hidden" />
             <span className="orange_gradient text-center">Zepto-Abhishek-Developer</span>
         </h1>
-        {/* <p className="flex items-center justify-center h-screen text-center">
-          GuidanceWave is an open-source platform connecting individuals with seasoned professionals in various fields, enabling you to discover, create, and share expert-led insights for your personal and professional growth.
-        </p> */}
+
+        <button className="rounded-full lg:mt-2 border border-black bg-black py-1.5 px-5 text-white transition-all hover:bg-white hover:text-black text-center text-sm font-inter flex items-center justify-center">
+            <a href="https://stack-abhi.netlify.app/">Stack_Abhi Portfolio</a>
+        </button>
 
         <Zepto />
-        {/* Feed commponent */}
-        {/* <Feed /> */}
+      
         <MainDisplay />
         
     </section>

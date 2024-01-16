@@ -3,6 +3,7 @@ import { useState, useEffect } from 'react';
 import SearchBar from '@/components/SearchBar';
 import ListPage from '@/components/ListPage';
 import { getPosts } from '@/app/api/axios';
+import Chip from './Chip';
 
 // Assuming your post object has properties like id, title, and body
 type Post = {
@@ -25,6 +26,7 @@ function MainDisplay() {
   return (
     <>
     <SearchBar posts={posts} setSearchResults={setSearchResults} />
+    
     <div className='flex items-center justify-center'>
       
       <ListPage searchResults={searchResults} />
